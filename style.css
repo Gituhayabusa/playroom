@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-size: 10em;
+    font-family: sans-serif;
+}
+
+h2 {
+    position: relative;
+    background-image: url(Love-bg2.png);
+    background-clip: text;
+    color: transparent;
+    animation: motion 30s linear infinite;
+
+}
+
+@keyframes motion {
+    to {
+        background-position: 800px;
+    }
+}
+
